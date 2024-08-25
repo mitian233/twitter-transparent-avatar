@@ -1,9 +1,12 @@
 <script setup lang="ts">
 
+import NavBar from "~/components/navBar.vue";
 </script>
 
 <template>
-  $END$
+  <nav-bar/>
+  <div class="h-[80px]" />
+  <slot/>
 </template>
 
 <style scoped>
